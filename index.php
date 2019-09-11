@@ -12,10 +12,11 @@
     <?php $larg = $_GET["width"]; ?>
     <?php $vol = $alt*$larg*$lun; ?>
 
-    <?php echo $lun; ?>
-    <?php echo $alt; ?>
-    <?php echo $larg; ?>
-    <?php echo $vol; ?>
+    <h1> La lunghezza è <?php echo $lun; ?> </h1> <br>
+    <h1> La altezza è <?php echo $alt; ?> </h1> <br>
+    <h1> La larghezza è <?php echo $larg; ?> </h1> <br>
+    <h1> Il volume è <?php echo $vol; ?> </h1> <br>
+
 
 
   </body>
